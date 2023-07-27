@@ -1,0 +1,33 @@
+/* Estilos del título*/
+h2 {
+  text-align: center;
+}
+
+/* Estilos de la tabla */
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Estilos de los encabezados de la tabla */
+table th {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilos para resaltar filas al pasar el ratón */
+table tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Estilos de las celdas de la tabla */
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
